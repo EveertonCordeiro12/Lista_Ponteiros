@@ -1,0 +1,9 @@
+Aqui está uma explicação para cada uma das expressões:
+
+p == &i: Isso verifica se o ponteiro p aponta para o endereço de memória de i. Como atribuímos p = &i;, esta expressão será VERDADEIRA,
+
+*p - *q: Isso calcula a diferença entre os valores apontados por p e q. *p é o valor de i, que é 3, e *q é o valor de j, que é 5. Portanto, a expressão é 3 - 5, resultando em -2.
+
+**&p:  &p dá o endereço de p, que é o endereço de memória onde i está armazenado. * é o operador de desreferenciamento, então *&p irá dar o valor apontado pelo endereço de p, ou seja, o valor de i, que é 3.
+
+3 - *p / *q + 7: Esta é uma expressão aritmética. Primeiro, o valor de *p (que é 3) é dividido pelo valor de *q (que é 5), resultando em 3/5. Em C, a divisão de inteiros resulta em uma divisão inteira, então o resultado é 0. Então, a expressão se torna 3 - 0 + 7, que é igual a 10.
