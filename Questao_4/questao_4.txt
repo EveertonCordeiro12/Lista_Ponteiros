@@ -1,0 +1,38 @@
+(a) Resultado esperado: 20
+Justificativa: O valor da variável 'valor' é alterado para 20 através do ponteiro 'p1'.
+
+(b) Resultado esperado: 29.0
+Justificativa: O valor da variável 'temp' é alterado para 29.0 através do ponteiro 'p2'.
+
+(c) Resultado esperado: P
+Justificativa: O ponteiro 'p3' aponta para o primeiro caractere da string "Ponteiros".
+
+(d) Resultado esperado: e
+Justificativa: O ponteiro 'p3' é alterado para apontar para o quinto caractere da string "Ponteiros".
+
+(e) Resultado esperado: P
+Justificativa: O ponteiro 'p3' é reposicionado para apontar novamente para o primeiro caractere da string "Ponteiros".
+
+(f) Resultado esperado: e
+Justificativa: O ponteiro 'p3' é incrementado para apontar para o quinto caractere da string "Ponteiros".
+
+(g) Resultado esperado: t
+Justificativa: O ponteiro 'p3' é decrementado, agora apontando para o quarto caractere da string "Ponteiros".
+
+ (h) Resultado esperado: 31
+Justificativa: O ponteiro 'p4' é configurado para apontar para o primeiro elemento do vetor 'vetor' e, em seguida, 'idade' recebe o valor apontado por 'p4'.
+
+(i) Resultado esperado: 45
+Justificativa: O ponteiro 'p5' é configurado para apontar para o segundo elemento do vetor 'vetor' e, em seguida, 'idade' recebe o valor apontado por 'p5'.
+
+(j) Resultado esperado: 27
+Justificativa: O ponteiro 'p4' é configurado para apontar para o terceiro elemento do vetor 'vetor' e, em seguida, 'idade' recebe o valor apontado por 'p4'.
+
+(k) Resultado esperado: 31
+Justificativa: O ponteiro 'p4' é ajustado para apontar para o primeiro elemento do vetor 'vetor' novamente, e 'idade' recebe o valor apontado por 'p4'.
+
+(l) Resultado esperado: 45
+Justificativa: O ponteiro 'p5' é configurado para apontar para o segundo elemento do vetor 'vetor' e, em seguida, 'idade' recebe o valor apontado por 'p5'.
+
+(m) Resultado esperado: 27
+Justificativa: O ponteiro 'p5' é incrementado para apontar para o terceiro elemento do vetor 'vetor' e, em seguida, 'idade' recebe o valor apontado por 'p5'

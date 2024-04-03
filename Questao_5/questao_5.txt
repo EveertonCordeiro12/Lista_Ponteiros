@@ -1,0 +1,19 @@
+Este programa cria um vetor de floats chamado vet com 5 elementos e um ponteiro f para float. Em seguida, ele itera sobre os elementos do vetor e imprime informações sobre cada elemento.
+
+Para cada iteração do loop, o programa imprime:
+
+O valor de i, que é o contador do loop.
+O valor armazenado em vet[i], que é o valor do elemento atual do vetor.
+O valor apontado por f + i, que é o valor apontado pelo ponteiro f deslocado por i.
+O endereço de memória de vet[i], que é o endereço do elemento atual do vetor.
+O endereço de memória de (f + i), que é o endereço apontado pelo ponteiro f deslocado por i.
+Após executar o programa, ele imprime essas informações para cada elemento do vetor.
+
+As respostas esperadas são:
+
+contador/valor/valor/endereco/endereco
+i = 0 vet[0] = 1.1 *(f + 0) = 1.1 &vet[0] = <endereço de memória do primeiro elemento do vetor> (f + 0) = <endereço de memória do primeiro elemento do vetor>
+i = 1 vet[1] = 2.2 *(f + 1) = 2.2 &vet[1] = <endereço de memória do segundo elemento do vetor> (f + 1) = <endereço de memória do segundo elemento do vetor>
+i = 2 vet[2] = 3.3 *(f + 2) = 3.3 &vet[2] = <endereço de memória do terceiro elemento do vetor> (f + 2) = <endereço de memória do terceiro elemento do vetor>
+i = 3 vet[3] = 4.4 *(f + 3) = 4.4 &vet[3] = <endereço de memória do quarto elemento do vetor> (f + 3) = <endereço de memória do quarto elemento do vetor>
+i = 4 vet[4] = 5.5 *(f + 4) = 5.5 &vet[4] = <endereço de memória do quinto elemento do vetor> (f + 4) = <endereço de memória do quinto elemento do vetor>
