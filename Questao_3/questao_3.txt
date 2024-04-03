@@ -1,0 +1,15 @@
+a. `p = &i;`: Esta expressão é legal. Ela atribui o endereço de `i` ao ponteiro `p`.
+
+b. `*q = &j;`: Esta expressão é ilegal. Ela tenta atribuir o endereço de `j` ao valor apontado por `q`, mas `q` não está inicializado para apontar para qualquer endereço de memória válido.
+
+c. `p = &*&i;`: Esta expressão é legal. Ela atribui o endereço de `i` ao ponteiro `p` após realizar uma série de operações de desreferenciamento e referenciamento.
+
+d. `i = (*&)j;`: Esta expressão é ilegal. `(*&)` não é uma operação válida em C.
+
+e. `i = *&j;`: Esta expressão é legal. Ela simplesmente atribui o valor de `j` à variável `i`.
+
+f. `i = *&*&j;`: Esta expressão é ilegal. Assim como na expressão d, `*&*&` não é uma operação válida em C.
+
+g. `q = *p;`: Esta expressão é legal. Ela atribui o valor apontado por `p` ao ponteiro `q`.
+
+h. `i = (*p)++ + *q;`: Esta expressão é ilegal. Ela tenta incrementar o valor apontado por `p`, o que não é permitido nesta forma de expressão.
