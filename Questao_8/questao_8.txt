@@ -1,0 +1,13 @@
+1. **Cálculo do endereço e recuperação do conteúdo**:
+   for(i = 0; i < 3; i++){
+       printf("%d ", *(vet + i));
+   }
+
+Este trecho de código percorre o vetor `vet` e imprime o conteúdo de cada elemento. A expressão `*(vet + i)` calcula o endereço do elemento `i` do vetor `vet` e, em seguida, desreferencia esse endereço para recuperar o valor armazenado nessa posição de memória. Ou seja, ele imprime os valores dos elementos do vetor.
+
+2. **Cálculo do endereço e exibição**:
+   for(i = 0; i < 3; i++){
+       printf("%X ", vet + i);
+   }
+
+Neste trecho de código, o programa percorre o vetor `vet` e imprime o endereço de memória de cada elemento. A expressão `vet + i` calcula o endereço do elemento `i` do vetor `vet`. Como `vet` é um ponteiro para o primeiro elemento do vetor, `vet + i` avança `i` posições de `sizeof(int)` (tamanho de um inteiro) a partir do endereço inicial de `vet`. Isso resulta na exibição dos endereços de memória dos elementos do vetor em formato hexadecimal.
